@@ -1,0 +1,8 @@
+[Unit]
+Description=Renews letsencrypt certificates
+After=network.target
+
+[Service]
+Type=oneshot
+WorkingDirectory=/opt/letsencrypt/
+ExecStart=/opt/letsencrypt/letsencrypt-auto renew --quiet --no-self-upgrade

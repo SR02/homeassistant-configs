@@ -1,0 +1,5 @@
+Living Room:
+ entities:
+  - light.living_room_front
+  - light.living_room_back
+  - device_tracker.living_room_chromecast

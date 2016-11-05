@@ -1,0 +1,8 @@
+Locks:
+ entities:
+  - lock.schlage_be469nxcen_touchscreen_deadbolt_locked_11_0
+  - sensor.schlage_be469nxcen_touchscreen_deadbolt_access_control_11_9
+  - sensor.schlage_be469nxcen_touchscreen_deadbolt_alarm_level_11_1
+  - sensor.schlage_be469nxcen_touchscreen_deadbolt_alarm_type_11_0
+  - sensor.schlage_be469nxcen_touchscreen_deadbolt_burglar_11_10
+  - sensor.schlage_be469nxcen_touchscreen_deadbolt_power_management_11_11

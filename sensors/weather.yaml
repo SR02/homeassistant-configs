@@ -1,0 +1,10 @@
+- platform: darksky
+  api_key: !secret darksky_api
+  monitored_conditions:
+    - summary
+    - nearest_storm_distance
+    - precip_probability
+    - temperature
+    - cloud_cover
+    - humidity
+  units: us

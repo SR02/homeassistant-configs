@@ -1,0 +1,27 @@
+lock.schlage_be469nxcen_touchscreen_deadbolt_locked_11_0:
+ friendly_name: Front Door
+ icon: mdi:lock
+
+sensor.schlage_be469nxcen_touchscreen_deadbolt_power_management_11_11:
+ friendly_name: Front Door Battery
+
+sensor.schlage_be469nxcen_touchscreen_deadbolt_access_control_11_9:
+ friendly_name: Front Door Access Control
+
+sensor.schlage_be469nxcen_touchscreen_deadbolt_alarm_level_11_1:
+ friendly_name: Front Door Alarm Level
+ icon: mdi:alert-octagon
+
+sensor.schlage_be469nxcen_touchscreen_deadbolt_alarm_type_11_0:
+ friendly_name: Front Door Alarm Type
+ icon: mdi:alert-octagon
+
+sensor.schlage_be469nxcen_touchscreen_deadbolt_burglar_11_10:
+ friendly_name: Front Door burglar
+ icon: mdi:ghost
+
+sensor.schlage_be469nxcen_touchscreen_deadbolt_sourcenodeid_11_2:
+ hidden: true
+
+sensor.schlage_be469nxcen_touchscreen_deadbolt_system_11_12:
+ hidden: true

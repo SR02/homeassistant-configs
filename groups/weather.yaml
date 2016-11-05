@@ -1,0 +1,12 @@
+climate:
+  name: Weather
+  icon: mdi:weather-partlycloudy
+  view: no
+  entities:
+    - camera.radar
+    - sensor.dark_sky_summary
+    - sensor.dark_sky_temperature
+    - sensor.dark_sky_humidity
+    - sensor.dark_sky_cloud_coverage
+    - sensor.dark_sky_nearest_storm_distance
+    - sensor.dark_sky_precip_probability

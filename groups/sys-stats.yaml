@@ -1,0 +1,7 @@
+System_Stats:
+ entities:
+  - sensor.lines_of_configuration
+  - sensor.disk_free_
+  - sensor.ram_free
+  - sensor.cpu_use
+  - sensor.last_boot
