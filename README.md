@@ -2,15 +2,15 @@
 ### Network Devices
 * Chromecasts
 * Lifx light bulbs
-* unifi device tracking
+* UniFi device tracking
 
 ###Zwave devices
 * Schlage BE469NXCAM716RF
 
 ### Cloud Services Data
-* darksky api for weather forecast (previously forecast.io)
+* Darksky api for weather forecast (previously forecast.io)
 * Radar camera via wunderground.com
 
 ### SSL configuration
-* apache reverse proxy
-* letsencrypt systemd service for auto renew
+* Apache reverse proxy
+* Letsencrypt systemd service for auto renew
