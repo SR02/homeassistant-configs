@@ -8,3 +8,4 @@
     - cloud_cover
     - humidity
   units: us
+  update_interval: 1024

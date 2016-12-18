@@ -17,6 +17,7 @@ http:
 updater:
 discovery:
 conversation:
+emulated_hue:
 history:
 logbook:
 #Custom Includes
