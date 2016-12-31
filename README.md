@@ -6,6 +6,7 @@
 
 ###Zwave devices
 * Schlage BE469NXCAM716RF
+* GE 12722 On/Off Relay Switch
 
 ### Cloud Services Data
 * Darksky api for weather forecast (previously forecast.io)
