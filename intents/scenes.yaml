@@ -1,0 +1,6 @@
+ActivateSceneIntent:
+ action:
+  service: scene.turn_on
+ speech:
+  type: plaintext
+  text: rawr

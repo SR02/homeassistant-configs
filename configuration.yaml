@@ -1,14 +1,9 @@
 homeassistant:
-  # Name of the location where Home Assistant is running
   name: Home
-  # Location required to calculate the time the sun rises and sets
   latitude: !secret home_lat
   longitude: !secret home_long
-  # Impacts weather/sunrise data (altitude above sea level in meters)
   elevation: 1
-  # metric for Metric, imperial for Imperial
   unit_system: imperial
-  # Pick yours from here: http://en.wikipedia.org/wiki/List_of_tz_database_time_zones
   time_zone: America/New_York
   customize: !include_dir_merge_named customization
 frontend:
@@ -20,14 +15,18 @@ conversation:
 emulated_hue:
 history:
 logbook:
+media_player: !include_dir_merge_list media
 #Custom Includes
 sensor: !include_dir_merge_list sensors
 camera: !include_dir_merge_list camera
 zwave: !include zwave/zwave.yaml
 light: !include lights/lights.yaml
+group: !include_dir_merge_named groups
+scene: !include_dir_merge_list scenes
+alexa:
+  intents: !include_dir_merge_named intents
 device_tracker:
   - platform: unifi
     host: !secret unifihost
     username: !secret unifiuser
     password: !secret unifipass
-group: !include_dir_merge_named groups

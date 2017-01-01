@@ -4,4 +4,5 @@ System_Stats:
   - sensor.disk_free_
   - sensor.ram_free
   - sensor.cpu_use
-  - sensor.last_boot
+  - sensor.cpu_temp
+  - sensor.since_last_boot

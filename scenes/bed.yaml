@@ -1,0 +1,5 @@
+ - name: Bedtime
+   entities:
+    light.living_room_back: off
+    light.living_room_front: off
+    switch.ge_12722_onoff_relay_switch_switch_12_0: off

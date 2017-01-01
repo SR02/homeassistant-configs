@@ -1,2 +1,6 @@
 group.all_lights:
  hidden: false
+switch.__switch_12_0:
+ friendly_name: Kitchen
+switch.ge_12722_onoff_relay_switch_switch_12_0:
+ friendly_name: Kitchen

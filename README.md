@@ -3,6 +3,7 @@
 * Chromecasts
 * Lifx light bulbs
 * UniFi device tracking
+* Plex media server
 
 ###Zwave devices
 * Schlage BE469NXCAM716RF
@@ -15,3 +16,6 @@
 ### SSL configuration
 * Apache reverse proxy
 * Letsencrypt systemd service for auto renew
+
+### Alexa
+* Custom skill for launching scenes
