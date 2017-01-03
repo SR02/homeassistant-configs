@@ -4,3 +4,5 @@ switch.__switch_12_0:
  friendly_name: Kitchen
 switch.ge_12722_onoff_relay_switch_switch_12_0:
  friendly_name: Kitchen
+light.linear_wd500z1_wall_dimmer_switch_level_13_0:
+ friendly_name: Dining Room
