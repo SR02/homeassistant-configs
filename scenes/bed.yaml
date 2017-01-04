@@ -1,5 +1,13 @@
  - name: Bedtime
    entities:
-    light.living_room_back: off
-    light.living_room_front: off
-    switch.ge_12722_onoff_relay_switch_switch_12_0: off
+    light.living_room_back:
+     state: off
+    light.living_room_front:
+     state: off
+    switch.ge_12722_onoff_relay_switch_switch_12_0:
+     state: off
+    light.linear_wd500z1_wall_dimmer_switch_level_13_0:
+     state: on
+     brightness: 48
+    lock.schlage_be469nxcen_touchscreen_deadbolt_locked_11_0:
+     state: locked
