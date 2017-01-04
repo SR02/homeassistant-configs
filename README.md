@@ -20,3 +20,9 @@
 
 ### Alexa
 * Custom skill for launching scenes
+
+### Scenes
+* bed
+  * Shuts off all lights
+  * Dim's dining room light to 20%
+  * Ensures lock is locked
